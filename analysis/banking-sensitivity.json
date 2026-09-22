@@ -1,0 +1,2557 @@
+{
+  "status": "RESEARCH_ONLY_NOT_PRODUCTION_RESULTS",
+  "date": "2026-09-20",
+  "formula": "E = event_count * winter_calendar_year_count / observed_calendar_year_count; ratio = hits/E; all years inclusive unless marked right_open; filter events whenever horizon changes. No p-value or statistical significance claim.",
+  "windows": [
+    [
+      1860,
+      1865
+    ],
+    [
+      1929,
+      1946
+    ],
+    [
+      2005,
+      2026
+    ]
+  ],
+  "hbs_source": {
+    "url": "https://www.hbs.edu/behavioral-finance-and-financial-stability/Documents/ChartData/MapCharts/20160923_global_crisis_data.xlsx",
+    "sha256": "7b74a710942bb311223be23f84e305994ee23575af821f4169d97b88e7fe400e",
+    "bytes": 1634548,
+    "sheet": "Sheet1",
+    "country": "USA",
+    "observed_span": [
+      1800,
+      2014
+    ],
+    "missing_years": [
+      2015,
+      2016
+    ],
+    "episode_rule": "Start each maximal consecutive run of Banking Crisis == 1;do not use Systemic Crisis column;missing is not0.",
+    "spells": [
+      {
+        "start_year": 1814,
+        "last_year": 1814,
+        "excel_start_row": 14122
+      },
+      {
+        "start_year": 1817,
+        "last_year": 1819,
+        "excel_start_row": 14125
+      },
+      {
+        "start_year": 1825,
+        "last_year": 1825,
+        "excel_start_row": 14133
+      },
+      {
+        "start_year": 1837,
+        "last_year": 1838,
+        "excel_start_row": 14145
+      },
+      {
+        "start_year": 1841,
+        "last_year": 1841,
+        "excel_start_row": 14149
+      },
+      {
+        "start_year": 1857,
+        "last_year": 1857,
+        "excel_start_row": 14165
+      },
+      {
+        "start_year": 1861,
+        "last_year": 1861,
+        "excel_start_row": 14169
+      },
+      {
+        "start_year": 1864,
+        "last_year": 1864,
+        "excel_start_row": 14172
+      },
+      {
+        "start_year": 1873,
+        "last_year": 1873,
+        "excel_start_row": 14181
+      },
+      {
+        "start_year": 1884,
+        "last_year": 1884,
+        "excel_start_row": 14192
+      },
+      {
+        "start_year": 1893,
+        "last_year": 1893,
+        "excel_start_row": 14201
+      },
+      {
+        "start_year": 1907,
+        "last_year": 1907,
+        "excel_start_row": 14215
+      },
+      {
+        "start_year": 1914,
+        "last_year": 1914,
+        "excel_start_row": 14222
+      },
+      {
+        "start_year": 1929,
+        "last_year": 1933,
+        "excel_start_row": 14237
+      },
+      {
+        "start_year": 1984,
+        "last_year": 1991,
+        "excel_start_row": 14292
+      },
+      {
+        "start_year": 2007,
+        "last_year": 2010,
+        "excel_start_row": 14315
+      }
+    ],
+    "annual_us_cells": [
+      {
+        "excel_row": 14108,
+        "year": 1800,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14109,
+        "year": 1801,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14110,
+        "year": 1802,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14111,
+        "year": 1803,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14112,
+        "year": 1804,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14113,
+        "year": 1805,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14114,
+        "year": 1806,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14115,
+        "year": 1807,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14116,
+        "year": 1808,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14117,
+        "year": 1809,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14118,
+        "year": 1810,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14119,
+        "year": 1811,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14120,
+        "year": 1812,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14121,
+        "year": 1813,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14122,
+        "year": 1814,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14123,
+        "year": 1815,
+        "banking_crisis": 0,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14124,
+        "year": 1816,
+        "banking_crisis": 0,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14125,
+        "year": 1817,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14126,
+        "year": 1818,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14127,
+        "year": 1819,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14128,
+        "year": 1820,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14129,
+        "year": 1821,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14130,
+        "year": 1822,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14131,
+        "year": 1823,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14132,
+        "year": 1824,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14133,
+        "year": 1825,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14134,
+        "year": 1826,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14135,
+        "year": 1827,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14136,
+        "year": 1828,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14137,
+        "year": 1829,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14138,
+        "year": 1830,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14139,
+        "year": 1831,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14140,
+        "year": 1832,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14141,
+        "year": 1833,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14142,
+        "year": 1834,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14143,
+        "year": 1835,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14144,
+        "year": 1836,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14145,
+        "year": 1837,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14146,
+        "year": 1838,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14147,
+        "year": 1839,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14148,
+        "year": 1840,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14149,
+        "year": 1841,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14150,
+        "year": 1842,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14151,
+        "year": 1843,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14152,
+        "year": 1844,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14153,
+        "year": 1845,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14154,
+        "year": 1846,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14155,
+        "year": 1847,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14156,
+        "year": 1848,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14157,
+        "year": 1849,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14158,
+        "year": 1850,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14159,
+        "year": 1851,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14160,
+        "year": 1852,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14161,
+        "year": 1853,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14162,
+        "year": 1854,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14163,
+        "year": 1855,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14164,
+        "year": 1856,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14165,
+        "year": 1857,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14166,
+        "year": 1858,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14167,
+        "year": 1859,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14168,
+        "year": 1860,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14169,
+        "year": 1861,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14170,
+        "year": 1862,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14171,
+        "year": 1863,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14172,
+        "year": 1864,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14173,
+        "year": 1865,
+        "banking_crisis": 0,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14174,
+        "year": 1866,
+        "banking_crisis": 0,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14175,
+        "year": 1867,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14176,
+        "year": 1868,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14177,
+        "year": 1869,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14178,
+        "year": 1870,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14179,
+        "year": 1871,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14180,
+        "year": 1872,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14181,
+        "year": 1873,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14182,
+        "year": 1874,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14183,
+        "year": 1875,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14184,
+        "year": 1876,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14185,
+        "year": 1877,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14186,
+        "year": 1878,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14187,
+        "year": 1879,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14188,
+        "year": 1880,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14189,
+        "year": 1881,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14190,
+        "year": 1882,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14191,
+        "year": 1883,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14192,
+        "year": 1884,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14193,
+        "year": 1885,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14194,
+        "year": 1886,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14195,
+        "year": 1887,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14196,
+        "year": 1888,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14197,
+        "year": 1889,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14198,
+        "year": 1890,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14199,
+        "year": 1891,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14200,
+        "year": 1892,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14201,
+        "year": 1893,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14202,
+        "year": 1894,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14203,
+        "year": 1895,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14204,
+        "year": 1896,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14205,
+        "year": 1897,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14206,
+        "year": 1898,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14207,
+        "year": 1899,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14208,
+        "year": 1900,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14209,
+        "year": 1901,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14210,
+        "year": 1902,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14211,
+        "year": 1903,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14212,
+        "year": 1904,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14213,
+        "year": 1905,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14214,
+        "year": 1906,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14215,
+        "year": 1907,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14216,
+        "year": 1908,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14217,
+        "year": 1909,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14218,
+        "year": 1910,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14219,
+        "year": 1911,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14220,
+        "year": 1912,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14221,
+        "year": 1913,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14222,
+        "year": 1914,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14223,
+        "year": 1915,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14224,
+        "year": 1916,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14225,
+        "year": 1917,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14226,
+        "year": 1918,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14227,
+        "year": 1919,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14228,
+        "year": 1920,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14229,
+        "year": 1921,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14230,
+        "year": 1922,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14231,
+        "year": 1923,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14232,
+        "year": 1924,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14233,
+        "year": 1925,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14234,
+        "year": 1926,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14235,
+        "year": 1927,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14236,
+        "year": 1928,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14237,
+        "year": 1929,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14238,
+        "year": 1930,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14239,
+        "year": 1931,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14240,
+        "year": 1932,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14241,
+        "year": 1933,
+        "banking_crisis": 1,
+        "systemic_crisis": 1
+      },
+      {
+        "excel_row": 14242,
+        "year": 1934,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14243,
+        "year": 1935,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14244,
+        "year": 1936,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14245,
+        "year": 1937,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14246,
+        "year": 1938,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14247,
+        "year": 1939,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14248,
+        "year": 1940,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14249,
+        "year": 1941,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14250,
+        "year": 1942,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14251,
+        "year": 1943,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14252,
+        "year": 1944,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14253,
+        "year": 1945,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14254,
+        "year": 1946,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14255,
+        "year": 1947,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14256,
+        "year": 1948,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14257,
+        "year": 1949,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14258,
+        "year": 1950,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14259,
+        "year": 1951,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14260,
+        "year": 1952,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14261,
+        "year": 1953,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14262,
+        "year": 1954,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14263,
+        "year": 1955,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14264,
+        "year": 1956,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14265,
+        "year": 1957,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14266,
+        "year": 1958,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14267,
+        "year": 1959,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14268,
+        "year": 1960,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14269,
+        "year": 1961,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14270,
+        "year": 1962,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14271,
+        "year": 1963,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14272,
+        "year": 1964,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14273,
+        "year": 1965,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14274,
+        "year": 1966,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14275,
+        "year": 1967,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14276,
+        "year": 1968,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14277,
+        "year": 1969,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14278,
+        "year": 1970,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14279,
+        "year": 1971,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14280,
+        "year": 1972,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14281,
+        "year": 1973,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14282,
+        "year": 1974,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14283,
+        "year": 1975,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14284,
+        "year": 1976,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14285,
+        "year": 1977,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14286,
+        "year": 1978,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14287,
+        "year": 1979,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14288,
+        "year": 1980,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14289,
+        "year": 1981,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14290,
+        "year": 1982,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14291,
+        "year": 1983,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14292,
+        "year": 1984,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14293,
+        "year": 1985,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14294,
+        "year": 1986,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14295,
+        "year": 1987,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14296,
+        "year": 1988,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14297,
+        "year": 1989,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14298,
+        "year": 1990,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14299,
+        "year": 1991,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14300,
+        "year": 1992,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14301,
+        "year": 1993,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14302,
+        "year": 1994,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14303,
+        "year": 1995,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14304,
+        "year": 1996,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14305,
+        "year": 1997,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14306,
+        "year": 1998,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14307,
+        "year": 1999,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14308,
+        "year": 2000,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14309,
+        "year": 2001,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14310,
+        "year": 2002,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14311,
+        "year": 2003,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14312,
+        "year": 2004,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14313,
+        "year": 2005,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14314,
+        "year": 2006,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14315,
+        "year": 2007,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14316,
+        "year": 2008,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14317,
+        "year": 2009,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14318,
+        "year": 2010,
+        "banking_crisis": 1,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14319,
+        "year": 2011,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14320,
+        "year": 2012,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14321,
+        "year": 2013,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14322,
+        "year": 2014,
+        "banking_crisis": 0,
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14323,
+        "year": 2015,
+        "banking_crisis": "n/a",
+        "systemic_crisis": 0
+      },
+      {
+        "excel_row": 14324,
+        "year": 2016,
+        "banking_crisis": "n/a",
+        "systemic_crisis": 0
+      }
+    ]
+  },
+  "rr2008": {
+    "url": "https://rogoff.scholars.harvard.edu/resource/2008-version",
+    "a3_pdf_pages": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "a3_us_onsets": [
+      1818,
+      1825,
+      1836,
+      1857,
+      1873,
+      1884,
+      1890,
+      1907,
+      1914,
+      1929,
+      1984,
+      2007
+    ],
+    "a5_pdf_pages": [
+      81,
+      82
+    ],
+    "a5_us_onsets": [
+      1814,
+      1817,
+      1825,
+      1837,
+      1841,
+      1857,
+      1861,
+      1864,
+      1873,
+      1884,
+      1893,
+      1907,
+      1914,
+      1929,
+      1984
+    ],
+    "table4_us_count": 13,
+    "table4_pdf_page": 17,
+    "unresolved": "A3=12,A5=15,Table4=13. A3 dates1818/1836/1890 differ fromA5,which has1814/1817/1837/1841/1861/1864/1893;A3 includes2007. Table4 headingthrough2008butfootnote1800–2006. Do not resolve byguessing."
+  },
+  "source_file_sha256": {
+    "banking_crises_us.csv": "2cedf225146b7921696b95c65b63f9088faa238be361a5a42b754ea6c974c6e0",
+    "recessions_davis_1796_1853.csv": "dca543d826bb1cd06eccd92e8799bb6502320f3b14dac818158a8af72a7ad28a",
+    "recessions_nber_1857_2020.csv": "430d4d619dc1a1f3052a5d167f8bac398f7fed55a20b5876ff61c5635605d9a5",
+    "turnings_1997.csv": "fec66dcb1de3931e69e2b2dee4db8fe21559c033c5d877e7545d1694ff1aae84"
+  },
+  "calculations": [
+    {
+      "id": "legacy_a5_1800_2008",
+      "interpretation": "Audit reproduction only; incomplete/inconsistent episode selection, not a validated population.",
+      "span": [
+        1800,
+        2008
+      ],
+      "calendar_years": 209,
+      "windows_boundary": "inclusive",
+      "winter_years": 28,
+      "events": 15,
+      "event_years": [
+        1814,
+        1817,
+        1825,
+        1837,
+        1841,
+        1857,
+        1861,
+        1864,
+        1873,
+        1884,
+        1893,
+        1907,
+        1914,
+        1929,
+        1984
+      ],
+      "hits": 3,
+      "hit_years": [
+        1861,
+        1864,
+        1929
+      ],
+      "expected_uniform_year": 2.0095693779904304,
+      "ratio_unrounded": 1.4928571428571429,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "a5_without_1914",
+      "interpretation": "Hypothetical row perturbation on unchanged horizon; not approved correction.",
+      "span": [
+        1800,
+        2008
+      ],
+      "calendar_years": 209,
+      "windows_boundary": "inclusive",
+      "winter_years": 28,
+      "events": 14,
+      "event_years": [
+        1814,
+        1817,
+        1825,
+        1837,
+        1841,
+        1857,
+        1861,
+        1864,
+        1873,
+        1884,
+        1893,
+        1907,
+        1929,
+        1984
+      ],
+      "hits": 3,
+      "hit_years": [
+        1861,
+        1864,
+        1929
+      ],
+      "expected_uniform_year": 1.875598086124402,
+      "ratio_unrounded": 1.5994897959183674,
+      "crosses_legacy_1_5_descriptive_threshold": true
+    },
+    {
+      "id": "a5_with_2007",
+      "interpretation": "Hypothetical row perturbation on unchanged horizon; not approved correction.",
+      "span": [
+        1800,
+        2008
+      ],
+      "calendar_years": 209,
+      "windows_boundary": "inclusive",
+      "winter_years": 28,
+      "events": 16,
+      "event_years": [
+        1814,
+        1817,
+        1825,
+        1837,
+        1841,
+        1857,
+        1861,
+        1864,
+        1873,
+        1884,
+        1893,
+        1907,
+        1914,
+        1929,
+        1984,
+        2007
+      ],
+      "hits": 4,
+      "hit_years": [
+        1861,
+        1864,
+        1929,
+        2007
+      ],
+      "expected_uniform_year": 2.1435406698564594,
+      "ratio_unrounded": 1.8660714285714286,
+      "crosses_legacy_1_5_descriptive_threshold": true
+    },
+    {
+      "id": "a5_without_1914_with_2007",
+      "interpretation": "Hypothetical row perturbation on unchanged horizon; not approved correction.",
+      "span": [
+        1800,
+        2008
+      ],
+      "calendar_years": 209,
+      "windows_boundary": "inclusive",
+      "winter_years": 28,
+      "events": 15,
+      "event_years": [
+        1814,
+        1817,
+        1825,
+        1837,
+        1841,
+        1857,
+        1861,
+        1864,
+        1873,
+        1884,
+        1893,
+        1907,
+        1929,
+        1984,
+        2007
+      ],
+      "hits": 4,
+      "hit_years": [
+        1861,
+        1864,
+        1929,
+        2007
+      ],
+      "expected_uniform_year": 2.0095693779904304,
+      "ratio_unrounded": 1.9904761904761907,
+      "crosses_legacy_1_5_descriptive_threshold": true
+    },
+    {
+      "id": "rr2008_a3_declared_1800_2007",
+      "interpretation": "Literal A3 transcription, conflict with Table4 unresolved.",
+      "span": [
+        1800,
+        2007
+      ],
+      "calendar_years": 208,
+      "windows_boundary": "inclusive",
+      "winter_years": 27,
+      "events": 12,
+      "event_years": [
+        1818,
+        1825,
+        1836,
+        1857,
+        1873,
+        1884,
+        1890,
+        1907,
+        1914,
+        1929,
+        1984,
+        2007
+      ],
+      "hits": 2,
+      "hit_years": [
+        1929,
+        2007
+      ],
+      "expected_uniform_year": 1.5576923076923077,
+      "ratio_unrounded": 1.2839506172839505,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "hbs_matched_to_a3_1800_2007",
+      "interpretation": "HBS annual indicator spells on identical comparison horizon.",
+      "span": [
+        1800,
+        2007
+      ],
+      "calendar_years": 208,
+      "windows_boundary": "inclusive",
+      "winter_years": 27,
+      "events": 16,
+      "event_years": [
+        1814,
+        1817,
+        1825,
+        1837,
+        1841,
+        1857,
+        1861,
+        1864,
+        1873,
+        1884,
+        1893,
+        1907,
+        1914,
+        1929,
+        1984,
+        2007
+      ],
+      "hits": 4,
+      "hit_years": [
+        1861,
+        1864,
+        1929,
+        2007
+      ],
+      "expected_uniform_year": 2.076923076923077,
+      "ratio_unrounded": 1.9259259259259258,
+      "crosses_legacy_1_5_descriptive_threshold": true
+    },
+    {
+      "id": "hbs_matched_1800_2008",
+      "interpretation": "HBS annual indicator spells on original audit horizon.",
+      "span": [
+        1800,
+        2008
+      ],
+      "calendar_years": 209,
+      "windows_boundary": "inclusive",
+      "winter_years": 28,
+      "events": 16,
+      "event_years": [
+        1814,
+        1817,
+        1825,
+        1837,
+        1841,
+        1857,
+        1861,
+        1864,
+        1873,
+        1884,
+        1893,
+        1907,
+        1914,
+        1929,
+        1984,
+        2007
+      ],
+      "hits": 4,
+      "hit_years": [
+        1861,
+        1864,
+        1929,
+        2007
+      ],
+      "expected_uniform_year": 2.1435406698564594,
+      "ratio_unrounded": 1.8660714285714286,
+      "crosses_legacy_1_5_descriptive_threshold": true
+    },
+    {
+      "id": "hbs_available_1800_2014",
+      "interpretation": "All and only continuous numeric US Banking Crisis coverage; zero-to-one spells, not a claimed author-provided onset list.",
+      "span": [
+        1800,
+        2014
+      ],
+      "calendar_years": 215,
+      "windows_boundary": "inclusive",
+      "winter_years": 34,
+      "events": 16,
+      "event_years": [
+        1814,
+        1817,
+        1825,
+        1837,
+        1841,
+        1857,
+        1861,
+        1864,
+        1873,
+        1884,
+        1893,
+        1907,
+        1914,
+        1929,
+        1984,
+        2007
+      ],
+      "hits": 4,
+      "hit_years": [
+        1861,
+        1864,
+        1929,
+        2007
+      ],
+      "expected_uniform_year": 2.530232558139535,
+      "ratio_unrounded": 1.5808823529411764,
+      "crosses_legacy_1_5_descriptive_threshold": true
+    },
+    {
+      "id": "hbs_1800_2014_right_open",
+      "interpretation": "Same HBS events/span with end-year belonging to next turning.",
+      "span": [
+        1800,
+        2014
+      ],
+      "calendar_years": 215,
+      "windows_boundary": "right_open",
+      "winter_years": 32,
+      "events": 16,
+      "event_years": [
+        1814,
+        1817,
+        1825,
+        1837,
+        1841,
+        1857,
+        1861,
+        1864,
+        1873,
+        1884,
+        1893,
+        1907,
+        1914,
+        1929,
+        1984,
+        2007
+      ],
+      "hits": 4,
+      "hit_years": [
+        1861,
+        1864,
+        1929,
+        2007
+      ],
+      "expected_uniform_year": 2.3813953488372093,
+      "ratio_unrounded": 1.6796875,
+      "crosses_legacy_1_5_descriptive_threshold": true
+    },
+    {
+      "id": "imf2026_listed_us_1970_2025",
+      "interpretation": "All listed US episodes including borderline case; separate modern definition, not spliced to RR.",
+      "span": [
+        1970,
+        2025
+      ],
+      "calendar_years": 56,
+      "windows_boundary": "inclusive",
+      "winter_years": 21,
+      "events": 2,
+      "event_years": [
+        1988,
+        2007
+      ],
+      "hits": 1,
+      "hit_years": [
+        2007
+      ],
+      "expected_uniform_year": 0.75,
+      "ratio_unrounded": 1.3333333333333333,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "rec_legacy_1796_2026",
+      "interpretation": "Reproduce legacy annual calculation;2026 partial and dating subject to retrospective confirmation.",
+      "span": [
+        1796,
+        2026
+      ],
+      "calendar_years": 231,
+      "windows_boundary": "inclusive",
+      "winter_years": 46,
+      "events": 44,
+      "event_years": [
+        1796,
+        1802,
+        1807,
+        1811,
+        1815,
+        1822,
+        1828,
+        1833,
+        1836,
+        1839,
+        1857,
+        1860,
+        1865,
+        1869,
+        1873,
+        1882,
+        1887,
+        1890,
+        1893,
+        1895,
+        1899,
+        1902,
+        1907,
+        1910,
+        1913,
+        1918,
+        1920,
+        1923,
+        1926,
+        1929,
+        1937,
+        1945,
+        1948,
+        1953,
+        1957,
+        1960,
+        1969,
+        1973,
+        1980,
+        1981,
+        1990,
+        2001,
+        2007,
+        2020
+      ],
+      "hits": 7,
+      "hit_years": [
+        1860,
+        1865,
+        1929,
+        1937,
+        1945,
+        2007,
+        2020
+      ],
+      "expected_uniform_year": 8.761904761904763,
+      "ratio_unrounded": 0.7989130434782608,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "rec_complete_years_1796_2025",
+      "interpretation": "Same selected chronology, last complete calendar year; absence of newly dated recession is provisional.",
+      "span": [
+        1796,
+        2025
+      ],
+      "calendar_years": 230,
+      "windows_boundary": "inclusive",
+      "winter_years": 45,
+      "events": 44,
+      "event_years": [
+        1796,
+        1802,
+        1807,
+        1811,
+        1815,
+        1822,
+        1828,
+        1833,
+        1836,
+        1839,
+        1857,
+        1860,
+        1865,
+        1869,
+        1873,
+        1882,
+        1887,
+        1890,
+        1893,
+        1895,
+        1899,
+        1902,
+        1907,
+        1910,
+        1913,
+        1918,
+        1920,
+        1923,
+        1926,
+        1929,
+        1937,
+        1945,
+        1948,
+        1953,
+        1957,
+        1960,
+        1969,
+        1973,
+        1980,
+        1981,
+        1990,
+        2001,
+        2007,
+        2020
+      ],
+      "hits": 7,
+      "hit_years": [
+        1860,
+        1865,
+        1929,
+        1937,
+        1945,
+        2007,
+        2020
+      ],
+      "expected_uniform_year": 8.608695652173912,
+      "ratio_unrounded": 0.8131313131313133,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "rec_complete_years_1800_2025",
+      "interpretation": "Start-year sensitivity:drop1796event and1796–1799exposure together.",
+      "span": [
+        1800,
+        2025
+      ],
+      "calendar_years": 226,
+      "windows_boundary": "inclusive",
+      "winter_years": 45,
+      "events": 43,
+      "event_years": [
+        1802,
+        1807,
+        1811,
+        1815,
+        1822,
+        1828,
+        1833,
+        1836,
+        1839,
+        1857,
+        1860,
+        1865,
+        1869,
+        1873,
+        1882,
+        1887,
+        1890,
+        1893,
+        1895,
+        1899,
+        1902,
+        1907,
+        1910,
+        1913,
+        1918,
+        1920,
+        1923,
+        1926,
+        1929,
+        1937,
+        1945,
+        1948,
+        1953,
+        1957,
+        1960,
+        1969,
+        1973,
+        1980,
+        1981,
+        1990,
+        2001,
+        2007,
+        2020
+      ],
+      "hits": 7,
+      "hit_years": [
+        1860,
+        1865,
+        1929,
+        1937,
+        1945,
+        2007,
+        2020
+      ],
+      "expected_uniform_year": 8.561946902654867,
+      "ratio_unrounded": 0.8175710594315245,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "rec_common_bank_1800_2008",
+      "interpretation": "Common horizon with original bank comparison;truncate both events and exposure.",
+      "span": [
+        1800,
+        2008
+      ],
+      "calendar_years": 209,
+      "windows_boundary": "inclusive",
+      "winter_years": 28,
+      "events": 42,
+      "event_years": [
+        1802,
+        1807,
+        1811,
+        1815,
+        1822,
+        1828,
+        1833,
+        1836,
+        1839,
+        1857,
+        1860,
+        1865,
+        1869,
+        1873,
+        1882,
+        1887,
+        1890,
+        1893,
+        1895,
+        1899,
+        1902,
+        1907,
+        1910,
+        1913,
+        1918,
+        1920,
+        1923,
+        1926,
+        1929,
+        1937,
+        1945,
+        1948,
+        1953,
+        1957,
+        1960,
+        1969,
+        1973,
+        1980,
+        1981,
+        1990,
+        2001,
+        2007
+      ],
+      "hits": 6,
+      "hit_years": [
+        1860,
+        1865,
+        1929,
+        1937,
+        1945,
+        2007
+      ],
+      "expected_uniform_year": 5.626794258373206,
+      "ratio_unrounded": 1.066326530612245,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "rec_common_hbs_1800_2014",
+      "interpretation": "Common horizon with fully observed HBS annual indicator.",
+      "span": [
+        1800,
+        2014
+      ],
+      "calendar_years": 215,
+      "windows_boundary": "inclusive",
+      "winter_years": 34,
+      "events": 42,
+      "event_years": [
+        1802,
+        1807,
+        1811,
+        1815,
+        1822,
+        1828,
+        1833,
+        1836,
+        1839,
+        1857,
+        1860,
+        1865,
+        1869,
+        1873,
+        1882,
+        1887,
+        1890,
+        1893,
+        1895,
+        1899,
+        1902,
+        1907,
+        1910,
+        1913,
+        1918,
+        1920,
+        1923,
+        1926,
+        1929,
+        1937,
+        1945,
+        1948,
+        1953,
+        1957,
+        1960,
+        1969,
+        1973,
+        1980,
+        1981,
+        1990,
+        2001,
+        2007
+      ],
+      "hits": 6,
+      "hit_years": [
+        1860,
+        1865,
+        1929,
+        1937,
+        1945,
+        2007
+      ],
+      "expected_uniform_year": 6.641860465116279,
+      "ratio_unrounded": 0.9033613445378151,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "rec_nber_only_1855_2025",
+      "interpretation": "First complete year after initial Dec1854NBERtrough;no Davis/NBER splice.",
+      "span": [
+        1855,
+        2025
+      ],
+      "calendar_years": 171,
+      "windows_boundary": "inclusive",
+      "winter_years": 45,
+      "events": 34,
+      "event_years": [
+        1857,
+        1860,
+        1865,
+        1869,
+        1873,
+        1882,
+        1887,
+        1890,
+        1893,
+        1895,
+        1899,
+        1902,
+        1907,
+        1910,
+        1913,
+        1918,
+        1920,
+        1923,
+        1926,
+        1929,
+        1937,
+        1945,
+        1948,
+        1953,
+        1957,
+        1960,
+        1969,
+        1973,
+        1980,
+        1981,
+        1990,
+        2001,
+        2007,
+        2020
+      ],
+      "hits": 7,
+      "hit_years": [
+        1860,
+        1865,
+        1929,
+        1937,
+        1945,
+        2007,
+        2020
+      ],
+      "expected_uniform_year": 8.947368421052632,
+      "ratio_unrounded": 0.7823529411764706,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "rec_davis_full_to1914_then_nber_1796_2025",
+      "interpretation": "Exploratory chronology sensitivity:use all Davis annual industrial peaks through1914 thenNBER1915 onward;this changes measured historical construct.",
+      "span": [
+        1796,
+        2025
+      ],
+      "calendar_years": 230,
+      "windows_boundary": "inclusive",
+      "winter_years": 45,
+      "events": 40,
+      "event_years": [
+        1796,
+        1802,
+        1807,
+        1811,
+        1815,
+        1822,
+        1828,
+        1833,
+        1836,
+        1839,
+        1856,
+        1860,
+        1864,
+        1873,
+        1883,
+        1892,
+        1895,
+        1903,
+        1907,
+        1910,
+        1913,
+        1918,
+        1920,
+        1923,
+        1926,
+        1929,
+        1937,
+        1945,
+        1948,
+        1953,
+        1957,
+        1960,
+        1969,
+        1973,
+        1980,
+        1981,
+        1990,
+        2001,
+        2007,
+        2020
+      ],
+      "hits": 7,
+      "hit_years": [
+        1860,
+        1864,
+        1929,
+        1937,
+        1945,
+        2007,
+        2020
+      ],
+      "expected_uniform_year": 7.826086956521739,
+      "ratio_unrounded": 0.8944444444444445,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "rec_postbook_1998_2025",
+      "interpretation": "Only full years after1997book publication;three recession peaks,one predicted crisis window,not a repeatability test.",
+      "span": [
+        1998,
+        2025
+      ],
+      "calendar_years": 28,
+      "windows_boundary": "inclusive",
+      "winter_years": 21,
+      "events": 3,
+      "event_years": [
+        2001,
+        2007,
+        2020
+      ],
+      "hits": 2,
+      "hit_years": [
+        2007,
+        2020
+      ],
+      "expected_uniform_year": 2.25,
+      "ratio_unrounded": 0.8888888888888888,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    },
+    {
+      "id": "rec_1796_2025_right_open",
+      "interpretation": "Same chronology/span,turning end-year belongs to next turning.",
+      "span": [
+        1796,
+        2025
+      ],
+      "calendar_years": 230,
+      "windows_boundary": "right_open",
+      "winter_years": 43,
+      "events": 44,
+      "event_years": [
+        1796,
+        1802,
+        1807,
+        1811,
+        1815,
+        1822,
+        1828,
+        1833,
+        1836,
+        1839,
+        1857,
+        1860,
+        1865,
+        1869,
+        1873,
+        1882,
+        1887,
+        1890,
+        1893,
+        1895,
+        1899,
+        1902,
+        1907,
+        1910,
+        1913,
+        1918,
+        1920,
+        1923,
+        1926,
+        1929,
+        1937,
+        1945,
+        1948,
+        1953,
+        1957,
+        1960,
+        1969,
+        1973,
+        1980,
+        1981,
+        1990,
+        2001,
+        2007,
+        2020
+      ],
+      "hits": 6,
+      "hit_years": [
+        1860,
+        1929,
+        1937,
+        1945,
+        2007,
+        2020
+      ],
+      "expected_uniform_year": 8.226086956521739,
+      "ratio_unrounded": 0.7293868921775899,
+      "crosses_legacy_1_5_descriptive_threshold": false
+    }
+  ],
+  "exploratory_era_conditioned_recession_baseline": {
+    "events": 44,
+    "hits": 7,
+    "expected_uniform_within_eras": 8.677622377622377,
+    "strata": [
+      {
+        "id": "stratum_(1796, 1853)",
+        "interpretation": "Exploratory conditional expectation allowing separate event rates;boundaries reflectDavis splice andNBERsummaryeras.",
+        "span": [
+          1796,
+          1853
+        ],
+        "calendar_years": 58,
+        "windows_boundary": "inclusive",
+        "winter_years": 0,
+        "events": 10,
+        "event_years": [
+          1796,
+          1802,
+          1807,
+          1811,
+          1815,
+          1822,
+          1828,
+          1833,
+          1836,
+          1839
+        ],
+        "hits": 0,
+        "hit_years": [],
+        "expected_uniform_year": 0.0,
+        "ratio_unrounded": null,
+        "crosses_legacy_1_5_descriptive_threshold": null
+      },
+      {
+        "id": "stratum_(1854, 1919)",
+        "interpretation": "Exploratory conditional expectation allowing separate event rates;boundaries reflectDavis splice andNBERsummaryeras.",
+        "span": [
+          1854,
+          1919
+        ],
+        "calendar_years": 66,
+        "windows_boundary": "inclusive",
+        "winter_years": 6,
+        "events": 16,
+        "event_years": [
+          1857,
+          1860,
+          1865,
+          1869,
+          1873,
+          1882,
+          1887,
+          1890,
+          1893,
+          1895,
+          1899,
+          1902,
+          1907,
+          1910,
+          1913,
+          1918
+        ],
+        "hits": 2,
+        "hit_years": [
+          1860,
+          1865
+        ],
+        "expected_uniform_year": 1.4545454545454546,
+        "ratio_unrounded": 1.375,
+        "crosses_legacy_1_5_descriptive_threshold": false
+      },
+      {
+        "id": "stratum_(1920, 1945)",
+        "interpretation": "Exploratory conditional expectation allowing separate event rates;boundaries reflectDavis splice andNBERsummaryeras.",
+        "span": [
+          1920,
+          1945
+        ],
+        "calendar_years": 26,
+        "windows_boundary": "inclusive",
+        "winter_years": 17,
+        "events": 6,
+        "event_years": [
+          1920,
+          1923,
+          1926,
+          1929,
+          1937,
+          1945
+        ],
+        "hits": 3,
+        "hit_years": [
+          1929,
+          1937,
+          1945
+        ],
+        "expected_uniform_year": 3.923076923076923,
+        "ratio_unrounded": 0.7647058823529412,
+        "crosses_legacy_1_5_descriptive_threshold": false
+      },
+      {
+        "id": "stratum_(1946, 2025)",
+        "interpretation": "Exploratory conditional expectation allowing separate event rates;boundaries reflectDavis splice andNBERsummaryeras.",
+        "span": [
+          1946,
+          2025
+        ],
+        "calendar_years": 80,
+        "windows_boundary": "inclusive",
+        "winter_years": 22,
+        "events": 12,
+        "event_years": [
+          1948,
+          1953,
+          1957,
+          1960,
+          1969,
+          1973,
+          1980,
+          1981,
+          1990,
+          2001,
+          2007,
+          2020
+        ],
+        "hits": 2,
+        "hit_years": [
+          2007,
+          2020
+        ],
+        "expected_uniform_year": 3.3,
+        "ratio_unrounded": 0.6060606060606061,
+        "crosses_legacy_1_5_descriptive_threshold": false
+      }
+    ],
+    "ratio": 0.8066725763558708
+  },
+  "production_decision_recommendation": "Banking INCONCLUSIVE;recession descriptive non-concentration against uniform-year benchmark;no general disaster/predictive verdict."
+}

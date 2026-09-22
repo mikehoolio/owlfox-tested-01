@@ -1,0 +1,31 @@
+year,most_people_can_be_trusted_pct_weighted_wtssps,unweighted_pct,n_valid,interview_modes,source
+1972,46.6,46.2,1597,,"NORC General Social Survey 1972-2024 Cumulative Data File, release 3a (gss7224_r3a.dta, downloaded 17 Sep 2026); variable TRUST, weight WTSSPS; ""depends"" kept in denominator"
+1973,47.2,46.0,1499,,same
+1975,40.0,39.5,1478,,same
+1976,43.0,44.4,1495,,same
+1978,38.4,39.0,1528,,same
+1980,42.7,45.5,1461,,same
+1983,34.9,37.0,800,,same
+1984,49.2,47.9,1461,,same
+1986,37.4,37.6,1466,,same
+1987,43.1,38.6,1808,,same
+1988,39.5,38.9,990,,same
+1989,40.1,41.0,1030,,same
+1990,37.6,38.1,898,,same
+1991,38.1,38.5,1013,,same
+1993,33.6,35.8,1052,,same
+1994,33.5,34.1,1995,,same
+1996,32.9,33.9,1915,,same
+1998,36.7,37.6,2346,,same
+2000,35.1,35.2,1879,,same
+2002,33.8,34.1,910,,same
+2004,33.9,35.9,875,in-person phone,same
+2006,32.5,32.4,2509,in-person phone,same
+2008,32.2,33.0,1365,in-person phone,same
+2010,32.1,33.4,1372,in-person phone,same
+2012,31.8,32.4,1331,in-person phone,same
+2014,29.6,30.8,1683,in-person phone,same
+2016,31.9,32.0,1946,in-person phone,same
+2018,33.8,31.6,1556,in-person phone,same
+2022,26.2,25.3,1198,in-person phone multimode,same
+2024,24.8,24.9,946,in-person phone multimode,same

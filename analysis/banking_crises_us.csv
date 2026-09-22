@@ -1,0 +1,17 @@
+start_year,label,in_rr2008_table_a5,source
+1814,State banks suspend specie (War of 1812),yes,"Reinhart & Rogoff (2008) NBER WP 14587 Appendix Table A5; research C §8d"
+1817,Bank insolvencies after Second BUS specie demands,yes,same
+1825,Bank of the US near suspension,yes,same
+1837,Panic of 1837,yes,same
+1841,Second BUS liquidated,yes,same
+1857,Panic of 1857,yes,same
+1861,Specie suspension,yes,same
+1864,Civil War panic,yes,same
+1873,Jay Cooke & Co. failure,yes,same
+1884,Brokerage failures / NY bank runs,yes,same
+1893,Panic of 1893,yes,same
+1907,Panic of 1907,yes,same
+1914,NYSE closed,yes,same
+1929,Great Depression bank failures,yes,same
+1984,S&L crisis,yes,same
+2007,Subprime / Global Financial Crisis,no,"Not in RR2008 A5 (paper dated Dec 2008); listed as US start year in Laeven & Valencia (2018) IMF WP 18/206 Table 1"
