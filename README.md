@@ -4,6 +4,7 @@ Method, source data, calculations and corrections for the first episode of **Tes
 
 - YouTube: [owlfox.studio](https://www.youtube.com/@owlfox.studio)
 - Theory checked: William Strauss and Neil Howe, *The Fourth Turning* (1997)
+- Every figure in the video with its source: [owlfox.studio/sources/tested-01](https://owlfox.studio/sources/tested-01)
 
 ## Scoreboard (v3, 20 September 2026)
 
@@ -20,7 +21,7 @@ These are exploratory checks. We had seen some of the data before writing the ru
 
 | File | What it is |
 |---|---|
-| [METHOD.md](METHOD.md) | Current method, limitations and the decision log of the 20 September revision |
+| [METHOD.md](METHOD.md) | Current method, limitations, the decision log of the 20 September revision and corrections to the video |
 | [RESULTS.md](RESULTS.md) | Current results with all tables and sensitivity runs |
 | [PREDICTIONS.md](PREDICTIONS.md) | Test 4 scoring sheet and sources |
 | [analysis/](analysis/) | Input data (CSV), the calculation script and its output |

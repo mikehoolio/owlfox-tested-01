@@ -5,6 +5,8 @@ Current version: v3, 20 September 2026. The original 17 September method is kept
 
 This is an openly logged revision made **after the results had been seen**. It is not a pre-registered study.
 
+Corrections to the published video are logged in [§8](#8-corrections-to-the-video-26-september-2026).
+
 ## 0. What these checks can and cannot say
 
 The episode runs four limited, exploratory checks. The author had seen part of the data before the original rules were written. This work is not described as pre-registered, independent confirmation, or a decisive test of the whole theory.
@@ -93,3 +95,13 @@ Every on-screen number carries a source and a period; derived numbers are also l
 | Rounding | Some comparisons after display rounding | Full precision for decisions, rounding for display | Stops rounding from moving a result across a cut-off. |
 
 The revision raises some earlier negative grades or leaves them open. We do not hide that effect. The original document's log is kept unchanged in the archive.
+
+## 8. Corrections to the video, 26 September 2026
+
+The published video (22 September 2026) was checked against its sources, frame by frame, for the episode's [source page](https://owlfox.studio/sources/tested-01). No numbers were wrong and the method and results above are unchanged. Three on-screen texts needed correcting. The same corrections are dated in the video description and listed in the channel's [corrections log](https://owlfox.studio/corrections).
+
+| Time | On screen | Correction |
+|---|---|---|
+| 3:46–4:11 | The trust card describes Pew's question as trusting the government to do what is right "most / all of the time". | Pew's wording is "just about always" or "most of the time". The figures are unchanged. |
+| 5:02–5:41 | The titles "RECESSION STARTS" count the years of business-cycle peaks. | They are peak years; NBER dates a recession from the month after a peak. Counting those months instead gives the same result. |
+| 6:30–7:34 | Source lines credit Neil Howe's later dating of the crisis to 2008 to "Howe (2023)". | The source we verified for that dating is Neil Howe's MacroVoices interview of 4 April 2019, as listed in [PREDICTIONS.md](PREDICTIONS.md). |
